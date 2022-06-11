@@ -20,7 +20,7 @@ public class SqrtServiceTest {
     public void shouldSqrtBorders() {
         SqrtService service = new SqrtService();
 
-        int expected = 7;
+        int expected = 8;
         int actual = service.calcSqrt(9, 100);
 
         Assertions.assertEquals(expected, actual);
@@ -29,7 +29,7 @@ public class SqrtServiceTest {
     public void shouldSqrtBorders1() {
         SqrtService service = new SqrtService();
 
-        int expected = 0;
+        int expected = 5;
         int actual = service.calcSqrt(100, 200);
 
         Assertions.assertEquals(expected, actual);
